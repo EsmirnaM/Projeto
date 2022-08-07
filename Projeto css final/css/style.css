@@ -1,0 +1,844 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    height: 100%;
+    } 
+
+.foto{
+    width: 58px;
+    height: 58px;
+ }
+
+ .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #7c3a7d;
+    margin: 0;
+    align-content: space-around;
+    align-items: center;
+    height: 67px;
+    width: 100%;
+}
+
+.fotomaior {
+    width: 260px;
+    height: 260px;
+}
+
+.li,a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.nav_links{
+    list-style: none;
+}
+
+
+
+.nav_links li{
+    display: inline-block;
+    padding:0px 20px;
+}
+
+.nav_links li a:hover {
+      color: #966096;
+}
+
+.banner, .foto__1{
+    width:100%;
+    height: 377px;
+        width: 100%;   
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; 
+    align-content: space-around;
+    align-items: center;
+    height: 67px;
+}
+
+.content{
+    
+    
+    padding: 40px;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin: 0;
+    align-content: space-around;
+    align-items: center;
+    height: 67px;
+   
+}
+
+.meunome{
+
+    text-align: left;
+    letter-spacing: 0px;
+}
+
+.prof {
+    width: 100%;
+    top: 453px;
+    left: 848px;
+    width: 285px;
+    height: 46px;
+    text-align: left;
+    font: italic normal 300 34px/46px Segoe UI;
+
+}
+
+.ola{
+
+    text-align: left;
+    font: 34px;
+    top: 1000px;
+    left: 1200px;
+    width: 65px;
+    height: 46px;
+    text-align: left;
+ 
+    }
+
+.paragrafo{
+    width: 100%;
+}
+
+
+.nome {
+    font-family: adobe;
+    font-size: 50px;
+    text-align: center;
+    
+     
+    
+}
+
+.apresentacao {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding:150px;
+    justify-content: center;
+    flex-wrap: wrap; 
+    align-content: center;
+    height: 67px;
+    height: 500px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0px;
+    opacity: 1;
+    
+}
+
+
+
+.paragrafo {
+
+top: 600px;
+left: 848px;
+width: 518px;
+height: 305px;
+text-align: left;
+font: normal normal 600 21px/ 20px Segoe UI;
+letter-spacing: 0px;
+opacity: 1;
+
+}
+
+
+
+
+
+/*................. Formação - Estudos............... */
+
+.formacao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 500px;
+    height: 353px;
+    background: #f0d5f8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+.tituloformacao {
+
+    margin-top: 20px;
+    margin-left: 280px;
+    height: 73px;
+    font: normal normal 300 55px/73px Segoe UI;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.estudo1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+ 
+}
+
+.informacoesestudo1{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+
+}
+
+.formacao1 {
+    list-style: none;
+    margin-left: 15px;
+    height: 31px;
+    font-size: 21px;
+    text-align: left;
+    letter-spacing: 0px;
+    padding: 0%;
+}
+
+
+
+.universidadecurso1 {
+    margin-left: 15px;
+    width: 558px;
+    height: 31px;
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0px;
+    list-style: none;
+
+
+}
+
+.datacurso1 {
+  
+    margin-left: 15px;
+    text-align: left;
+    font-size: 13px;
+    list-style: none;
+}
+
+
+.linha1 {
+    margin-left: 280px;
+    width: 8px;
+    height: 66px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    }
+
+
+.linha2 {
+
+    margin-left: 280px;
+    width: 8px;
+    height: 66px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.datacurso2 {
+
+    margin-left: 15px;
+    width: 558px;
+    text-align: left;
+    font-size: 13px;
+    list-style: none;
+}
+
+
+.informacoesestudo2{
+
+    align-items: center;
+    align-content: center;
+
+}
+
+.universidadecurso2{
+    margin-left: 15px;
+    width: 558px;
+    height: 31px;
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0px;
+    list-style: none;
+}
+
+.formacao2 {
+    list-style: none;
+    margin-left: 15px;
+    width: 558px;
+    height: 31px;
+    font-size: 21px;
+    text-align: left;
+    letter-spacing: 0px;
+    padding: 0%;
+}
+
+
+.estudo2 {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    
+ 
+}
+
+
+.informacaoestudos{
+   margin-top: 40px;
+}
+
+
+
+
+
+
+
+/*................. Experiência............... */
+
+
+
+.experiencia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 353px;
+    background: #7c3a7d 0% 0% no-repeat padding-box;
+    opacity: 1;
+        
+}
+
+
+
+.tituloexperiencia {
+    margin-left: 280px;
+    margin-top: 20px;
+    width: 230px;
+    height: 73px;
+    font: normal normal 300 55px/73px Segoe UI;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #ffff;
+
+}
+
+.informacaoexperiencia{
+    margin-top: 20px;
+
+}
+
+.linha3 {
+    margin-left: 280px;
+    margin-top: 5px;
+    width: 8px;
+    height: 66px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    }
+
+
+.linha4 {
+    margin-left: 280px;
+    margin-top: 20px;
+    width: 8px;
+    height: 66px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+
+.experiencia1{
+    display: flex;
+    align-items: center;
+}
+
+.trabalho1{
+    margin-left: 15px;
+    width: 844px;
+    height: 31px;
+    text-align: left;
+    font: normal normal bold 21px/34px Segoe UI;
+    letter-spacing: 0px;
+    color: #ffffff;
+    list-style: none;
+    opacity: 1;
+}
+.dataexperiencia1{
+    margin-left: 15px;
+    width: 109px;
+    height: 31px;
+    text-align: left;
+    font: normal normal 600 13px/34px Segoe UI;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    list-style: none;
+}
+
+.empresa1{
+    margin-left: 15px;
+    left: 582px;
+    width: 100%;
+    height: 31px;
+    text-align: left;
+    font: normal normal 600 13px/34px Segoe UI;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    list-style: none;
+}
+
+
+.experiencia2 {
+    display: flex;
+    align-items: center;
+}
+
+.informacaoexperiencia2 {
+    align-items: center;
+    align-content: center;
+}
+
+
+.dataexperiencia2 {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 100%;
+    height: 31px;
+    text-align: left;
+    font: normal normal 600 13px/34px Segoe UI;
+    letter-spacing: 0px;
+    color: #ffffff;
+    list-style: none;
+}
+
+.trabalho2{
+
+    margin-left: 15px;
+    width: 100%;
+    height: 31px;
+    text-align: left;
+    font: normal normal bold 21px/34px Segoe UI;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    list-style: none;
+
+}
+
+.empresa2{
+    margin-top: 0px;
+    margin-left: 15px;
+    width: 100%;
+    height: 31px;
+    text-align: left;
+    font: normal normal 600 13px/34px Segoe UI;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    list-style: none;
+}
+
+
+/*................. Projetos - cards............... */
+
+.projetos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 518px;
+    background:#d5e7f7 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.tituloprojetos{
+    margin-left: 280px;
+    text-align: left;
+    font: normal normal 300 55px/73px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+
+}
+
+.cards{
+    margin: auto;
+    display: grid;    
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    margin-left: 280px;
+    grid-column-gap: 30px;
+    grid-row: 40px;
+    justify-content: center;
+    padding: 15px;
+    width:100%;
+    height: 353px;
+    opacity: 1;
+    
+}
+
+
+/*  primeira card    */
+        .card1 {
+            padding: 5px;
+            top: 1773px;
+            left: 554px;
+            width: 260px;
+            height: 335px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            border-radius: 5px;
+            opacity: 1;
+            
+            
+        }
+
+            .card_imagem1{
+                display: flex;
+                align-items: stretch;
+                align-items: center;
+                width: 100%;
+                height: 129px;
+            }
+    
+            .titulo1 {   
+                margin-top: 20px;
+                width: 167px;
+                height: 28px;
+                text-align: left;
+                font: normal normal bold 21px/28px Segoe UI;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+                text-align: center;
+            
+            }
+
+            .descricao1{
+                display: flex;
+                margin-top: 20px;
+                width: 232px;
+                height: 76px;
+                text-align: left;
+                font: normal normal normal 15px/17px Segoe UI;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+                
+            }
+
+            .botoes{
+
+                display: flex;
+                align-content: center;
+                padding: 10px;
+            }
+            .button1{
+                margin-top: 20px;
+                width: 110px;
+                height: 34px;
+                background: #585858 0% 0% no-repeat padding-box;
+                border-radius: 5px;
+                opacity: 1;
+                text-transform: uppercase;
+                
+            }
+    
+            .button2{
+                margin-top: 20px;
+                margin-left: 8px;
+                width: 110px;
+                height: 34px;
+                background: #585858 0% 0% no-repeat padding-box;
+                border-radius: 5px;
+                opacity: 1;
+                text-transform: uppercase;
+                }
+
+/*  segunda card    */
+.card2 {  
+    padding: 5px;        
+    top: 1773px;
+    left: 852px;
+    width: 260px;
+    height: 335px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+                
+   }
+
+   .card_imagem2{
+    display: flex;
+    align-items: stretch;
+    align-items: center;
+    width: 100%;
+    height: 129px;
+    }
+
+
+   .titulo2{
+    margin-top: 20px;
+    width: 167px;
+    height: 28px;
+    text-align: left;
+    font: normal normal bold 21px/28px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-align: center;
+  
+   }
+
+
+
+   .descricao2{
+    display: flex;
+    margin-top: 20px;
+    width: 232px;
+    height: 76px;
+    text-align: left;
+    font: normal normal normal 15px/17px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    
+   }
+
+   /*  terceira card    */
+
+   .card3{
+    padding: 5px;
+    top: 1773px;
+    left: 1150px;
+    width: 260px;
+    height: 335px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+   }
+
+   .card_imagem3{
+    display: flex;
+    align-items: stretch;
+    align-items: center;
+    width: 100%;
+    height: 129px;
+    }
+
+    .titulo3{
+        margin-top: 20px;
+        width: 167px;
+        height: 28px;
+        text-align: left;
+        font: normal normal bold 21px/28px Segoe UI;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        text-align: center;
+      
+       }
+
+    .descricao3{
+        display: flex;
+        margin-top: 20px;
+        width: 232px;
+        height: 76px;
+        text-align: left;
+        font: normal normal normal 15px/17px Segoe UI;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        
+       }
+
+
+/*................. Area de contato............... */    
+
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    top: 2163px;
+    left: 0px;
+    height: 609px;
+    background: #7c3a7d 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.contacto{
+   
+    margin-top: 70px;
+    margin-left: 280px;
+}
+
+.titulocontato {
+    height: 73px;
+    text-align: left;
+    font: normal normal 300 55px/73px Segoe UI;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.paragrafocontato{
+    margin-top: 50px;
+    text-align: left;
+    font: normal normal normal 21px/28px Segoe UI;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.logogithub{
+    margin-top: 50px;
+    left: 554px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.logolinkedin {
+    top: 2568px;
+    left: 554px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.logoinstagram {
+    top: 2568px;
+    left: 554px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.datos{
+    margin-top: 130px;
+    margin-left: 350px;
+}
+
+.nome{
+    height: 17px;
+    text-align: left;
+    font: normal normal bold 13px/17px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.assunto{
+    height: 17px;
+    text-align: left;
+    font: normal normal bold 13px/17px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+.email{
+    height: 17px;
+    text-align: left;
+    font: normal normal bold 13px/17px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.menssagem{
+    height: 17px;
+    text-align: left;
+    font: normal normal bold 13px/17px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#email{
+    width: 398px;
+    height: 34px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+#nome{
+    width: 398px;
+    height: 34px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+#assunto {
+    width: 398px;
+    height: 34px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+
+}
+
+#menssagem{
+    width: 398px;
+    height: 133px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.botaoenviar{
+
+    margin-left: 135px;
+    margin-top: 20px;
+    width: 122px;
+    height: 34px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    text-transform: uppercase;
+
+
+}
+
+.botaoenviar:hover {
+    background-color: #c8e5f0;
+    color: #966096 ;
+}
+
+
